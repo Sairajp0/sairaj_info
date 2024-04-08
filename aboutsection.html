@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sairaj's Achievements</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Replace "favicon.ico" with the path to your favicon -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif; /* Use Arial font */
+            background-color: #f8f8f8; /* Light gray background */
+            min-height: 100vh; /* Ensure the body fills the entire viewport */
+            display: flex;
+            flex-direction: column; /* Set the flex container to column direction */
+        }
+        .container {
+            flex: 1; /* Grow to fill remaining vertical space */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 30px;
+        }
+        .heading {
+            font-size: 45px;
+            margin-bottom: 55px;
+            color: gold; /* Dark gray */
+        }
+        .achievement {
+            background-color: #fff; /* White background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+            text-align: center;
+            margin-bottom: 20px;
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+        .achievement-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333; /* Dark gray */
+            margin-bottom: 10px;
+        }
+        .achievement-description {
+            color: #666; /* Gray */
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .footer {
+            background-color: #fff; /* Dark gray background */
+            color: #000; /* White text color */
+            padding: 5px; /* Adjusted padding */
+            text-align: center;
+            width: 100%;
+            font-size: 14px; /* Adjusted font size */
+            position: fixed; /* Fixed position */
+            bottom: 0; /* Align to the bottom */
+            left: 0; /* Align to the left */
+            right: 0; /* Align to the right */
+            z-index: 999; /* Ensure it stays on top of other content */
+        }
+        /* Style anchor tags */
+        a {
+            color: inherit; /* Inherit text color */
+            text-decoration: none; /* Remove default underline */
+            cursor: pointer; /* Change cursor on hover */
+        }
+        a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Achievements Section -->
+    <div class="container">
+        <div class="heading">Sairaj's Achievements</div>
+        
+        <!-- Achievement Cards -->
+        <a href="file:///C:/Users/User/Downloads/saiweb/divisional.html">
+            <div class="achievement">
+                <div class="achievement-title">Divisional Game</div>
+                <div class="achievement-description">Secured 2nd place in basketball represting the district and St. Xavier's High School.</div>
+            </div>
+        </a>
+
+        <a href="file:///C:/Users/User/Downloads/saiweb/states.html">
+            <div class="achievement">
+                <div class="achievement-title">States Game</div>
+                <div class="achievement-description">secured 2nd place in states representing our division..</div>
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="achievement">
+                <div class="achievement-title">School Achievements</div>
+                <div class="achievement-description">Represented as blue house commander and won the GC</div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        &copy; 2024 Sairaj. All rights reserved.
+    </div>
+
+</body>
+</html>
